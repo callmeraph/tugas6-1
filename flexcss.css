@@ -1,0 +1,25 @@
+.upcontainer,
+.downcontainer {
+    display: flex;
+    margin-top: 20px;
+    margin: 3em auto;
+    gap: 20px;
+}
+
+.item {
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(194, 1, 253);
+    flex-grow: 1;
+    border-radius: 10px 10px 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 8px;
+}
+
+body {
+    background-color: rgb(255, 234, 115);
+}
